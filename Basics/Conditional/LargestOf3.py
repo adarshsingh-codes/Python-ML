@@ -8,7 +8,6 @@ elif n2>=n1 and n2>=n3:
     print(n2,"is the greatest")
 else:
     print(n3,"is the greatest")
-
-
+    
 #python built in
 print(max(n1,n2,n3))

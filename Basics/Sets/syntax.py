@@ -24,11 +24,11 @@ for i in range(n):
 
 print(s2)
 
-s2.add(49)
+s2.add(49)  # ADD ELEMENT TO NUMBERS
 
 s2.add(344)
 
-s2.remove(49)
+s2.remove(49)  #REMOVE ELEMENTS TO NUMBERS
 s2.discard(9)
 
 print(s2)
@@ -144,3 +144,6 @@ print("After symmetric_difference_update:", f)
 g = a.copy()
 g.clear()
 print("After clear:", g)
+
+
+

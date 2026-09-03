@@ -8,8 +8,6 @@ def movezeroesToEnd(nums):
     while k<n:
         nums[k]=0
         k+=1
-        
-
 n=int(input("Enter the size: "))
 nums=list(map(int,input().split()))
 print(nums)

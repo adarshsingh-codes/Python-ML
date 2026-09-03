@@ -1,3 +1,8 @@
+#python is dynamically typed
+
+#python doesnt have a stirct const keyword like c++;
+
+
 print("Hello")
 age=20
 print(age)

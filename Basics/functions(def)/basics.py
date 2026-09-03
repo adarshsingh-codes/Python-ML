@@ -3,7 +3,7 @@ def greet():
 
 def add(a,b):
     return a+b
-
+#return sends a value back to wherever the function was called.
 
 greet()
 n1=int(input("enter num1: "))

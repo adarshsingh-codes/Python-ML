@@ -5,4 +5,4 @@ s=set(arr)
 t=tuple(s)
 
 
-print(t)n
+print(t)

@@ -51,3 +51,42 @@ print(min(t))
 print(max(t))
 print(sum(t))
 print(len(t))
+
+
+
+
+
+#A tuple is basica;;y a list that cant be chaned after creation
+point=(10,20)
+
+print(point[0])
+print(point[1])
+
+point[0]=60  #tis wont work as it is immutable
+
+
+
+#tuples can bethis way
+
+shape=(10,20)
+
+
+#or functions returning multiple values
+
+def get_data():
+    return 10,20
+
+#then 
+x,y=get_data()
+
+
+
+
+#example
+
+tu=(10,20,30,40)
+
+arr=list(tu)
+print(arr)
+
+tup=tuple(arr)
